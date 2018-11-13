@@ -149,8 +149,7 @@ EST DE TYPE, 11 Produit, 0N TypeProduit
 
 ![](https://github.com/DavidMolinari/BDD_CNAM_APPLICATION/blob/master/model3.svg)
 
-
-
+![](https://i.imgur.com/tme9lb6.png)
 
 
 3. Contraintes particulières (NOT NULL ; valeur > 0 ; domaines de valeurs ; ...) ;
@@ -172,5 +171,4 @@ EST DE TYPE, 11 Produit, 0N TypeProduit
 * Réduire automatiquement le nombre de produit disponible à chaque commande [TRIGGER]
 * Tester automatiquement avant une commande si un produit est disponible dans la quantité demandée [TRIGGER]
 * Vérifier si le client est majeur avant de passer une commande
-* Lors de l'ajout d'un client, 
 
