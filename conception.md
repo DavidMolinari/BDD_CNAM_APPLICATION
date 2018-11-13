@@ -155,4 +155,14 @@ EST DE TYPE, 11 Produit, 0N TypeProduit
 
 4. Liste des fonctionnalités prises en charges par votre BD (fonctions, triggers)
 
+* Lister tous les clients enrengistrés
+* Lister tous les produits ainsi que leurs types associés
+* Lister touts les clients qui ont passé une commande à une date précise
+* Récupérer les commandes qui n'ont pas encore été payées
+* Récupérer les commandes qui n'ont pas encore été livrées
+* Récupérer tous les produits commandés par un client particulier
+* Lister toutes les commandes commandées par des clients qui habitent en France
+* Lister tous les clients qui ont commandé par plusieurs moyens de paiements
+* Réduire automatiquement le nombre de produit disponible à chaque commande [TRIGGER]
+* Tester automatiquement avant une commande si un produit est disponible dans la quantité demandée [TRIGGER]
 
