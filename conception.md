@@ -122,6 +122,29 @@ prixTVA
 
 2. Modèle Entité Association (MEA) et schéma relationnel ;
 
+```mocodo
+Livraison: refLivraison, dateLivraison
+LIVRER, 01 Commande, 11 Livraison
+Commande: refCommande, dateCommande
+PAYER, 01 Commande, 01 MethodePaiement
+MethodePaiement: refPaiement, numCarte, dateExpiration, codeCarte
+
+Client: numClient, email, nom, prenom, motDePasse, sexe, tel, rue, numRue, cp, ville, pays
+PASSE, 0N Client, 11 Commande
+:
+DetailsCommande, 1N Commande, 0N Produit: nbProduitsCommandés
+Produit: refProduit, nomProduit, prixProduit, nbProduits
+
+:
+:
+:
+TypeProduit: refTypeProduit, nomTypeProduit
+EST DE TYPE, 11 Produit, 0N TypeProduit
+```
+
+
+
+
 
 
 
