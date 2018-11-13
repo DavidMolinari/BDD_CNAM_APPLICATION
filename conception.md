@@ -143,6 +143,7 @@ EST DE TYPE, 11 Produit, 0N TypeProduit
 ```
 
 
+![](https://github.com/DavidMolinari/BDD_CNAM_APPLICATION/blob/master/model.svg)
 
 
 
