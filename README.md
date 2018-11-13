@@ -115,29 +115,33 @@ L'application complète a pour bût d'améliorer le trafic, de proposer de l'ins
 
 ## Besoins spécifiques du client
 
-    - Je veux avoir une liste complète de tous mes clients, les informations personnelles qu'ils ont décidé d'entrer (RGPD) pour pouvoir les lister, les trier, en extraire des profils pour d'éventuelles promotions ( % de réduction sur des chaussures pour femmes [a+ les non binaires] )
-        - Je veux avoir une trace et un archivage complet de toutes les commandes daté
-        - Je veux que la plus part des actions soient automatisées, que le client n'ait pas à attendre avant que sa commande ne soit traitée
-        - Je veux avoir la liste complète de tous mes produits, triés par types, par prix, etc
-        - Je veux avoir la liste des transactions effectuées
-        - Je veux avoir la liste de tous les produits achetés
+* Je veux avoir une liste complète de tous mes clients, les informations personnelles qu'ils ont décidé d'entrer (RGPD) pour pouvoir les lister, les trier, en extraire des profils pour d'éventuelles promotions ( % de réduction sur des chaussures pour femmes [a+ les non binaires] )
+* Je veux avoir une trace et un archivage complet de toutes les commandes daté
+* Je veux que la plus part des actions soient automatisées, que le client n'ait pas à attendre avant que sa commande ne soit traitée
+* Je veux avoir la liste complète de tous mes produits, triés par types, par prix, etc
+* Je veux avoir la liste des transactions effectuées
+* Je veux avoir la liste de tous les produits achetés
 
 
+## Proposition des solutions fonctionnelles :
+
+* Un système de gestion des stocks disponibles
+* Un système de listing complet des produits triés par nom, par date d'ajout, par prix, etc
+* Un système de gestion des commandes permettant de gérer les stocks automatiquement lors de chaque commande
 
 ## Proposition des solutions techniques :
 
 Application web Apache/PostGrsql/php
+* Apache est encore majoritairement utilisé comparé à son principal concurrent [Nginx], il est stable et dispose d'une forte communauté.
+* PostGrsql, solution sous licence libre, stable et majoritairement utilisé par la plus part des bases de données
+* Php, what else ?
 
-//TODO pourquoi avoir choisi les deux
 ## Contraintes techniques et diverses
 
-- Techno facile à prendre en main pour maintenabilité future par d'autres développeurs
-- Laps de temps très court avant livraison
+* Techno facile à prendre en main pour maintenabilité future par d'autres développeurs
+* Laps de temps très court avant livraison
 
 
 ## Les livrables :
-- Code source de l'application complète sur un repository en ligne
-- Application web prête pour y faire des tests car le client ne sait pas ouvrir un terminal
-
-
-
+* Code source de l'application complète sur un repository en ligne
+* Application web prête pour y faire des tests car le client ne sait pas ouvrir un terminal
