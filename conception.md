@@ -123,6 +123,8 @@ prixTVA
 2. Modèle Entité Association (MEA) et schéma relationnel ;
 
 ```mocodo
+AdresseLivraison: refAdresseLivraison, numRue, nomRue, cp, ville, pays
+EST LIVREE A, 01 AdresseLivraison, 11 Livraison
 Livraison: refLivraison, dateLivraison
 LIVRER, 01 Commande, 11 Livraison
 Commande: refCommande, dateCommande
@@ -130,7 +132,9 @@ CommandePayée, 0N Commande, 0N MethodePaiement: datePaiement
 MethodePaiement: refPaiement, numCarte, dateExpiration, codeCarte
 
 
-Client: numClient, email, nom, prenom, motDePasse, sexe, tel, rue, numRue, cp, ville, pays
+
+POSSEDE, 1N Client, 11 AdresseLivraison
+Client: numClient, email, nom, prenom, motDePasse, sexe, tel
 PASSE, 0N Client, 11 Commande
 :
 DetailsCommande, 1N Commande, 0N Produit: nbProduitsCommandés
@@ -168,4 +172,5 @@ EST DE TYPE, 11 Produit, 0N TypeProduit
 * Réduire automatiquement le nombre de produit disponible à chaque commande [TRIGGER]
 * Tester automatiquement avant une commande si un produit est disponible dans la quantité demandée [TRIGGER]
 * Vérifier si le client est majeur avant de passer une commande
+* Lors de l'ajout d'un client, 
 
