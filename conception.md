@@ -142,7 +142,6 @@ TypeProduit: refTypeProduit, nomTypeProduit
 EST DE TYPE, 11 Produit, 0N TypeProduit
 ```
 
-
 ![](https://github.com/DavidMolinari/BDD_CNAM_APPLICATION/blob/master/model.svg)
 
 
@@ -150,4 +149,10 @@ EST DE TYPE, 11 Produit, 0N TypeProduit
 
 
 3. Contraintes particulières (NOT NULL ; valeur > 0 ; domaines de valeurs ; ...) ;
+* emailClient     |int| NOT NULL|^[0-9a-zA-Z._-]+@[0-9a-zA-Z._-]{2,}[.][a-zA-Z]{2,4}$|   |
+* sexeClient     |varchar|NOT NULL   |Domain{'homme', 'femme', 'autre'}|   |
+* dateNaissanceClient     |DATETIME|NOT NULL   |   < NOW() |   |
+
 4. Liste des fonctionnalités prises en charges par votre BD (fonctions, triggers)
+
+
