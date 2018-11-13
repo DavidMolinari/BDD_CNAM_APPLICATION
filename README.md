@@ -4,7 +4,11 @@ Pour rédiger le cahier des charges, vous devez vous mettre dans la peau du clie
 exprime un besoin mais aussi dans celle du prestataire qui va répondre à ce besoin. Pour
 cela, vous pouvez suivre le cheminement suivant :
 1. **Problématiques (Client) : quelles sont les problématiques rencontrés ?**
-    Meh
+
+    ![https://sayingimages.com/wp-content/uploads/i-needs-help-help-meme.jpg](https://sayingimages.com/wp-content/uploads/i-needs-help-help-meme.jpg)
+    
+    
+    
 2. **Besoins (Client + Prestataire) : quels sont les besoins qui découlent de ces
 problématiques ?**
 
