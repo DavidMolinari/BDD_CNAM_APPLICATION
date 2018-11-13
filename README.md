@@ -132,53 +132,33 @@ osef
 
 
 
-# BDD_CNAM_APPLICATION
+## Proposition des solutions techniques :
+
+- MYSQL VS POSTGRE
+    transactional DDL (no fucked up, stuck in the middle migration)
+    Json / Array Type (indexed ==> faster than mongo for certain workflow)
+    powerfull indexing story
+    powerfull explain (let you debug why it's slower)
+    Boolean data type (not a Tiny INT)
+    Text data type in PG (not like varchar(255) /o\ ) and real utf8 support (hello utf8mb4 and other related index issue /o)
+    Recursive Queries or window query :)
+    Generate_table \o/
+    Helping , smart , open community
+
+- serveur Apache VS NGINX
+    perf
+   
+
+//TODO pourquoi avoir choisi les deux
+## Contraintes techniques et diverses
+
+- Techno facile à prendre en main pour maintenabilité future par d'autres développeurs
+- Laps de temps très court avant livraison
 
 
-
-
-
-- Présentation entreprise
-    - Objectifs du site :
-    - Les cibles du site :
-    - Objectifs quantitatifs : 
-    - Perimetres du projet :
-- Specificités du projet :
-    - objectifs pour guests
-    - objectifs pour admins
-    - objectifs pour clients
-    - contraintes techniques 
-    - resources utilisées
-    - les livrables 
-    - pourquoi avoir choisi cette solution
-
-
-MDP / inscription etc TODO
-
-
-
-       
-3. **Solutions (Prestataire) :**
-  - **Quelles sont les solutions fonctionnelles pour répondre aux besoins ? (ex. :
-BDD pour gérer les utilisateurs, la liste des produits vendus etc.)**
-
-    - Une BDD
-
-- **Quelles sont les solutions techniques et sont-elles adaptées aux besoins ?**
-    
-    BDD
-    
-    
-4. **Livrables (Prestataire) : quels sont les livrables logiciels prévus ?**
-
-    Application web fonctionnelle
-
-
-
-
-
-
-## Partie I
+## Les livrables :
+- Code source de l'application complète sur un repository en ligne
+- Application web prête pour y faire des tests car le client ne sait pas ouvrir un terminal
 
 
 
