@@ -1,36 +1,25 @@
-# FELINE
+# FELINE-MEGA
 
 
 ## Cahier des charges 
-
-- Nom de l'entreprise : FELINE
-
-- Nom du projet : FELINE
-
-- Personne à contacter dans l'entreprise : JEAN FELINE
-
-- Adresse : 4 rue meow@Toulon
-
-- Tel : 06 44 44 44 44
-
-- email : meow@feline.ew
-
+* Nom de l'entreprise : FELINE
+* Nom du projet : FELINE
+* Personne à contacter dans l'entreprise : JEAN FELINE
+* Adresse : 4 rue meow@Toulon
+* Tel : 06 44 44 44 44
+* email : meow@feline.ew
+* website : http://www.felineme.ga
 
 ## Présentation de l'entreprise 
-
 FELINE©, une boutique en ligne qui s'occupe de vendre des goodies en lien avec les chats, des jouets, des stickers, des cahiers, des stylos, etc.
 Créée en 2018 suite à l'achat d'un box aléatoire lors d'une vente aux encheres, JEAN FELINE se retrouva avec des miliers de goodies de chats et il décide par la suite d'ouvrir une petite boutique pour vendre tous ces articles. Le succès fût plutôt sympathique, alors il se lance dans la fabrication, la production de ces goodies et dans le bût d'étendre sa petite boutique il il crée son site de e-commerce mais ça se transforme vite en catastrophe à cause de son manque de conaissances et de tous les vautours qui lui demandent 140.000€ pour l'application.
 Il propose donc à un étudiant fan de chat de faire l'application pour lui, en échange de goodies à vie.
 
 Quelques chiffres : 
-
-    - 120k de chiffre d'affaire
-    - 1 employé
-    
+* 120k de chiffre d'affaire
+* 1 employé
 Principaux concurrents : 
-    
-    - Amazon
-    
+* Amazon
     
 ## Analyse de l'éxistant pour le site internet : 
 ![](https://www.blog.spoongraphics.co.uk/wp-content/uploads/2008/06/2.jpg)
