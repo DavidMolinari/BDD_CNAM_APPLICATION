@@ -53,22 +53,27 @@ Jean FELINE se sent très gêné à l'idée de dévoiler l'éxistant, nous avons
  ```
 
 
-### Les objectifs de l'application :
 
-Améliorer le trafic, proposer de l'instantané aux clients, améliorer notre gestion de données
+## Problèmatiques
 
+Une seule personne est en charge de toutes les commandes qui malgrè un site web non intuitif, sont plutôt nombreuses. Cette personne se retrouve donc à rechercher la disponibilité de ses produits sur des classeurs, à noter chacune des transactions et devoir faire très vite pour satisfaire les clients qui sont habitués à de l'instantanné.
 
+Plusieurs problématiques se posent aujourd'hui et voici les plus critiques :
 
+* Comment gérer efficacement toutes les demandes des clients ?
+* Comment répértorier efficacement tous les produits et ainsi éviter les oublis, les redondances ?
+* Comment faire en sorte que mon employé ne démisionne pas en brûlant toute la paperasse avant de s'envoler au Bresil ?
 
-### Les cibles : 
+## Les objectifs de l'application :
 
-Les fans de chats dépensent sans compter.
+L'application complète a pour bût d'améliorer le trafic, de proposer de l'instantané aux clients et surtout d'améliorer la gestion des données.
 
+## Les cibles : 
 
-### PERSONAS 
-  
-   ![](http://www.iconninja.com/files/837/326/356/user-young-male-avatar-person-man-icon.png)
-   
+* Les fans de chats dépensent sans compter.
+* PERSONAS :
+ ![](http://www.iconninja.com/files/837/326/356/user-young-male-avatar-person-man-icon.png)  
+ 
     - Sam, étudiant en droit
       - Informations de base :
           - Age : 20 ans
@@ -98,27 +103,14 @@ Les fans de chats dépensent sans compter.
         - Centres d'interêt : Réseaux sociaux, Design, Relations sociales
         - Vit en France dans une collocation
         - Traits de caractère : Inquiète du regard des gens
-        - Relation à la technologie : 9/10 Très accroc
+        - Relation aux chats : 9/10 Très accroc
         - Aime la mode, prendre ses plats en photos
       - Objectifs :
         - Devenir une influenceuse sur Instagram
         - Soigner son image numérique au maximum 
         - Trouver un compagnon sur AdopteUnMec
-      - Découverte du projet :
-        - Trailer en publicité sur Instagram
-      - FREINS
-        - Trop sensible
-        - Fragile
-
-
-
-
-
-
-## Objectifs quantitatifs
-osef
-## Périmètres du projet 
-osef
+      - Découverte de l'application  :
+        - Cliente régulière de la boutique physique
 
 
 ## Besoins spécifiques du client
@@ -134,20 +126,7 @@ osef
 
 ## Proposition des solutions techniques :
 
-- MYSQL VS POSTGRE
-    transactional DDL (no fucked up, stuck in the middle migration)
-    Json / Array Type (indexed ==> faster than mongo for certain workflow)
-    powerfull indexing story
-    powerfull explain (let you debug why it's slower)
-    Boolean data type (not a Tiny INT)
-    Text data type in PG (not like varchar(255) /o\ ) and real utf8 support (hello utf8mb4 and other related index issue /o)
-    Recursive Queries or window query :)
-    Generate_table \o/
-    Helping , smart , open community
-
-- serveur Apache VS NGINX
-    perf
-   
+Application web Apache/PostGrsql/php
 
 //TODO pourquoi avoir choisi les deux
 ## Contraintes techniques et diverses
