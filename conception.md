@@ -152,6 +152,9 @@ EST DE TYPE, 11 Produit, 0N TypeProduit
 ![](https://i.imgur.com/tme9lb6.png)
 
 
+**Je justifie le choix de l'identifiant de la table client (numClient) au lieux de email qui peut être identifiant unique de la table par la simplicité à autoIncrémenter lors de l'insertion de chaque client**
+
+
 3. Contraintes particulières (NOT NULL ; valeur > 0 ; domaines de valeurs ; ...) ;
 * emailClient     |int| NOT NULL|^[0-9a-zA-Z._-]+@[0-9a-zA-Z._-]{2,}[.][a-zA-Z]{2,4}$|   |
 * sexeClient     |varchar|NOT NULL   |Domain{'homme', 'femme', 'autre'}|   |
