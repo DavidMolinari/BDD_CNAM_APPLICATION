@@ -37,43 +37,104 @@ Principaux concurrents :
 
 Jean FELINE se sent très gêné à l'idée de dévoiler l'éxistant, nous avons donc décidé de flouter l'éxistant pour éviter toute gêne
 
+- Solution utilisée actuellement : Site web basique avec un formulaire de contact par email pour toute commande, gestion des stock, des prix, des références produits sur des classeurs papiers avec un employé en dépression.
+- Statistiques actuelles : Traffic mensuel à +/- 5k 
+
+
+
+## Message SMS du client :
+
+   ![https://sayingimages.com/wp-content/uploads/i-needs-help-help-meme.jpg](https://sayingimages.com/wp-content/uploads/i-needs-help-help-meme.jpg)    
+    
+```text
+ Je suis débordé, j'ai une gestion de mes commandes sur papier avec plusieurs classeurs et je n'arrive pas à recruter de personnes pour s'occuper de toute cette paperasse, malgrè tous les bonbons et gateaux que je fournis à chaque entretient.
+    Je vends des goodies sur mon site web  : goodiesdechats.shopsitegratuit.com et à chaque commande, je reçois un email me notifiant qu'un client veut acheter cet objet.
+    Mes concurrents n'ont rien à faire de leur côté, ils n'ont qu'à remplir leur stock alors que je passe des heures à faire le tri, noter, classer et je ne m'en sors plus alors HELP, HELP, HELP 
+ ```
+
+
+### Les objectifs de l'application :
+
+Améliorer le trafic, proposer de l'instantané aux clients, améliorer notre gestion de données
+
+
+
+
+### Les cibles : 
+
+Les fans de chats dépensent sans compter.
+
+
+### PERSONAS 
+  
+   ![](http://www.iconninja.com/files/837/326/356/user-young-male-avatar-person-man-icon.png)
+   
+    - Sam, étudiant en droit
+      - Informations de base :
+          - Age : 20 ans
+          - Situation familiale : Célibataire, sans enfant
+          - Centres d'interêt : Réseaux sociaux, jeux vidéos, pizza, chats
+          - vit en France dans une zone résidentielle
+          - Traits de caractère : Accent du sud
+          - Relation aux chats : 10/10 => Addicted
+          - Il porte des adidas Vegan parce que c'est à la mode
+      - Objectifs :
+          - Augmenter ses likes sur Instagram
+          - Augmenter ses relations sur LinkedIn
+          - Soigner son image numérique au maximum et se faire connaître dans le milieu des courses automobiles
+          - Trouver une copine sur Meetic
+          - Découverte de la boutique :
+            -publicité sur le boncoin
+      - FREINS
+        - Dépensier
+
+
+   ![](http://bb-bau.com/images/avatar.png)
+   
+    - Virginie, manager dans une start-up
+      - Informations de base :
+        - Age : 28 ans
+        - Situation familiale : Célibataire, sans enfant
+        - Centres d'interêt : Réseaux sociaux, Design, Relations sociales
+        - Vit en France dans une collocation
+        - Traits de caractère : Inquiète du regard des gens
+        - Relation à la technologie : 9/10 Très accroc
+        - Aime la mode, prendre ses plats en photos
+      - Objectifs :
+        - Devenir une influenceuse sur Instagram
+        - Soigner son image numérique au maximum 
+        - Trouver un compagnon sur AdopteUnMec
+      - Découverte du projet :
+        - Trailer en publicité sur Instagram
+      - FREINS
+        - Trop sensible
+        - Fragile
 
 
 
 
 
 
+## Objectifs quantitatifs
+osef
+## Périmètres du projet 
+osef
 
 
+## Besoins spécifiques du client
 
-
-
-
-
-
-
-
+    - Je veux avoir une liste complète de tous mes clients, les informations personnelles qu'ils ont décidé d'entrer (RGPD) pour pouvoir les lister, les trier, en extraire des profils pour d'éventuelles promotions ( % de réduction sur des chaussures pour femmes [a+ les non binaires] )
+        - Je veux avoir une trace et un archivage complet de toutes les commandes daté
+        - Je veux que la plus part des actions soient automatisées, que le client n'ait pas à attendre avant que sa commande ne soit traitée
+        - Je veux avoir la liste complète de tous mes produits, triés par types, par prix, etc
+        - Je veux avoir la liste des transactions effectuées
+        - Je veux avoir la liste de tous les produits achetés
 
 
 
 # BDD_CNAM_APPLICATION
 
 
-
-
-
-Pour rédiger le cahier des charges, vous devez vous mettre dans la peau du client qui
-exprime un besoin mais aussi dans celle du prestataire qui va répondre à ce besoin. Pour
-cela, vous pouvez suivre le cheminement suivant :
-
-
-
-
-
-
-
-goodiesdechats.shopsitegratuit.com
-est la représentation digitale de ma boutique 
 
 
 
@@ -96,25 +157,6 @@ MDP / inscription etc TODO
 
 
 
-
-1. **Problématiques (Client) : quelles sont les problématiques rencontrés ?**
-
-    Je suis débordé, j'ai une gestion de mes commandes sur papier avec plusieurs classeurs et je n'arrive pas à recruter de personnes pour s'occuper de toute cette paperasse, malgrè tous les bonbons et gateaux que je fournis à chaque entretient.
-    Je vends des goodies sur mon site web  : goodiesdechats.shopsitegratuit.com et à chaque commande, je reçois un email me notifiant qu'un client veut acheter cet objet.
-    Mes concurrents n'ont rien à faire de leur côté, ils n'ont qu'à remplir leur stock alors que je passe des heures à faire le tri, noter, classer et je ne m'en sors plus alors HELP 
-
-    ![https://sayingimages.com/wp-content/uploads/i-needs-help-help-meme.jpg](https://sayingimages.com/wp-content/uploads/i-needs-help-help-meme.jpg)    
-    
-2. **Besoins (Client + Prestataire) : quels sont les besoins qui découlent de ces
-problématiques ?**
-
-    Client :
-        - Je veux avoir une liste complète de tous mes clients, les informations personnelles qu'ils ont décidé d'entrer (RGPD) pour pouvoir les lister, les trier, en extraire des profils pour d'éventuelles promotions ( % de réduction sur des chaussures pour femmes [a+ les non binaires] )
-        - Je veux avoir une trace et un archivage complet de toutes les commandes daté
-        - Je veux que la plus part des actions soient automatisées, que le client n'ait pas à attendre avant que sa commande ne soit traitée
-        - Je veux avoir la liste complète de tous mes produits, triés par types, par prix, etc
-        - Je veux avoir la liste des transactions effectuées
-        - Je veux avoir la liste de tous les produits achetés
        
 3. **Solutions (Prestataire) :**
   - **Quelles sont les solutions fonctionnelles pour répondre aux besoins ? (ex. :
