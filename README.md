@@ -15,8 +15,14 @@ cela, vous pouvez suivre le cheminement suivant :
 2. **Besoins (Client + Prestataire) : quels sont les besoins qui découlent de ces
 problématiques ?**
 
-    Meh
-    
+    Client :
+        - Je veux avoir une liste complète de tous mes clients, les informations personnelles qu'ils ont décidé d'entrer (RGPD) pour pouvoir les lister, les trier, en extraire des profils pour d'éventuelles promotions ( % de réduction sur des chaussures pour femmes [a+ les non binaires] )
+        - Je veux avoir une trace et un archivage complet de toutes les commandes daté
+        - Je veux que la plus part des actions soient automatisées, que le client n'ait pas à attendre avant que sa commande ne soit traitée
+        - Je veux avoir la liste complète de tous mes produits
+        - 
+        
+        
 3. **Solutions (Prestataire) :**
   - **Quelles sont les solutions fonctionnelles pour répondre aux besoins ? (ex. :
 BDD pour gérer les utilisateurs, la liste des produits vendus etc.)**
