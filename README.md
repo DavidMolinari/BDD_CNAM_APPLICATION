@@ -5,8 +5,11 @@ exprime un besoin mais aussi dans celle du prestataire qui va répondre à ce be
 cela, vous pouvez suivre le cheminement suivant :
 1. **Problématiques (Client) : quelles sont les problématiques rencontrés ?**
 
+    Je suis débordé, j'ai une gestion de mes commandes sur papier avec plusieurs classeurs et je n'arrive pas à recruter de personnes pour s'occuper de toute cette paperasse, malgrè tous les bonbons et gateaux que je fournis à chaque entretient.
+    Je vends des goodies sur mon site web  : jevendsdesgoodies.shopsitegratuit.com et à chaque commande, je reçois un email me notifiant qu'un client veut acheter cet objet.
+    Mes concurrents n'ont rien à faire de leur côté, ils n'ont qu'à remplir leur stock alors que je passe des heures à faire le tri, noter, classer et je ne m'en sors plus alors HELP 
+
     ![https://sayingimages.com/wp-content/uploads/i-needs-help-help-meme.jpg](https://sayingimages.com/wp-content/uploads/i-needs-help-help-meme.jpg)
-    
     
     
 2. **Besoins (Client + Prestataire) : quels sont les besoins qui découlent de ces
