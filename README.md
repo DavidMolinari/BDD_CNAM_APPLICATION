@@ -61,6 +61,8 @@ L'application complète a pour bût d'améliorer le trafic, de proposer de l'ins
 
 * Les fans de chats dépensent sans compter.
 * PERSONAS :
+
+
  ![](http://www.iconninja.com/files/837/326/356/user-young-male-avatar-person-man-icon.png)  
  
     - Sam, étudiant en droit
