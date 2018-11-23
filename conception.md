@@ -171,8 +171,8 @@ EST DE TYPE, 11 Produit, 0N TypeProduit
    * Récupérer tous les produits commandés par un client particulier
 * Fonctionnalités statistiques :
    * Récupérer le client le plus fidèle
-   * Lister toutes les commandes commandées par des clients qui habitent en France
-   * Lister tous les clients qui ont commandé par plusieurs moyens de paiements
+   * Récupérer le produit le plus apprécié dans un certain Pays
+   * Récupérer les moyens de paiement les plus utilisés
 * Trigger 
    * Réduire automatiquement le nombre de produit disponible à chaque commande [TRIGGER]
       * Choix commercial, sera fait sur le After insert et non le avant insert, d'un point de vu commercial : je préfère retarder la livraison d'un produit que de la perdre
