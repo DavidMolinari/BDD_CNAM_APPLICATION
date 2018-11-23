@@ -163,18 +163,18 @@ EST DE TYPE, 11 Produit, 0N TypeProduit
 4. Liste des fonctionnalités prises en charges par votre BD (fonctions, triggers)
 
 * Fonctionnalités simples : 
- * Lister tous les clients enrengistrés
- * Lister tous les produits ainsi que leurs types associés
- * Lister touts les clients qui ont passé une commande à une date précise
- * Récupérer les commandes qui n'ont pas encore été payées
- * Récupérer les commandes qui n'ont pas encore été livrées
- * Récupérer tous les produits commandés par un client particulier
+   * Lister tous les clients enrengistrés
+   * Lister tous les produits ainsi que leurs types associés
+   * Lister touts les clients qui ont passé une commande à une date précise
+   * Récupérer les commandes qui n'ont pas encore été payées
+   * Récupérer les commandes qui n'ont pas encore été livrées
+   * Récupérer tous les produits commandés par un client particulier
 * Fonctionnalités statistiques :
- * Récupérer le client le plus fidèle
- * Lister toutes les commandes commandées par des clients qui habitent en France
- * Lister tous les clients qui ont commandé par plusieurs moyens de paiements
+   * Récupérer le client le plus fidèle
+   * Lister toutes les commandes commandées par des clients qui habitent en France
+   * Lister tous les clients qui ont commandé par plusieurs moyens de paiements
 * Trigger 
- * Réduire automatiquement le nombre de produit disponible à chaque commande [TRIGGER]
-  * Choix commercial, sera fait sur le After insert et non le avant insert, d'un point de vu commercial : je préfère retarder la livraison d'un produit que de la perdre
-  * Vérifier si le client est majeur avant de passer une commande [TRIGGER]
+   * Réduire automatiquement le nombre de produit disponible à chaque commande [TRIGGER]
+      * Choix commercial, sera fait sur le After insert et non le avant insert, d'un point de vu commercial : je préfère retarder la livraison d'un produit que de la perdre
+   * Vérifier si le client est majeur avant de passer une commande [TRIGGER]
 
