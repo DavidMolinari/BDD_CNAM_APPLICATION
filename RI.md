@@ -46,3 +46,8 @@ En pratique
 ![](https://i.imgur.com/gbMNxwU.png)
 
 
+
+* Taille de l'index :
+  * 10% des données brûtes si index non positionnel 
+  * 30-50% des données brûtes si index positionnel 
+  * Encore + si gestion de synonymes, traduction, etc.
