@@ -51,3 +51,15 @@ En pratique
   * 10% des données brûtes si index non positionnel 
   * 30-50% des données brûtes si index positionnel 
   * Encore + si gestion de synonymes, traduction, etc.
+
+
+
+## Evaluation de la perf d'un moteur de recherche
+
+
+* 
+![](https://i.imgur.com/EX0LfD6.png)
+
+* 
+
+![](https://i.imgur.com/Uic2gnn.png)
