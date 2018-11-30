@@ -27,4 +27,22 @@ cons : recherche avec %meh%
 The Vector Space Model ( VSM )
 
 
-**JILOUSSE**
+* Collection C de documents
+* Indexation : Tokenization => linguistic moduules => Indexation
+* Index inversé positionnel [ Matrice des termes distincts => Num Document [ Postion ] ]
+* **Mesure TF** => Le poids d'un terme dans un document
+* **Mesure Idf** => Quantifier le contenu informatif d'un terme / la rareté / Le pouvoir discriminant 
+* **W = tf * idf => (1+ log10(tf)) * log10(N/df)**
+* Chaque doc est representé par un vecteur Di € R
+* en 2D ( 2 termes, soit (U)=2)
+* Recherche et ranking des documents répondant à une requête q selon le modèle vectorial
+* pour chaque doc Di € C
+
+![](https://i.imgur.com/xKU4XVk.png)
+
+
+En pratique 
+
+![](https://i.imgur.com/gbMNxwU.png)
+
+
